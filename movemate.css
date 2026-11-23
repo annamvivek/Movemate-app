@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #17243a;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #101b2c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+}
+
+.logo span {
+    color: #ff8c32;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-btn {
+    background-color: #ff8c32;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 8%;
+    background-color: #f3f6fa;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #ff8c32;
+}
+
+.hero-content > p {
+    color: #666666;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.primary-btn {
+    background-color: #ff8c32;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.features {
+    display: flex;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+.features h3 {
+    color: #ff8c32;
+    font-size: 22px;
+}
+
+.features p {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 5px;
+}
+
+
+.booking {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.booking-box {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.input-box {
+    flex: 1;
+    text-align: left;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-btn {
+    padding: 14px 22px;
+    background-color: #ff8c32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.services {
+    padding: 65px 8%;
+    text-align: center;
+    background-color: #f3f6fa;
+}
+
+.services h2 {
+    font-size: 32px;
+}
+
+.section-description {
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.service-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #ff8c32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.why-us {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 8%;
+}
+
+.why-image {
+    flex: 1;
+}
+
+.why-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.why-content {
+    flex: 1;
+}
+
+.why-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.why-content > p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.benefit {
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    color: #ff8c32;
+    margin-bottom: 8px;
+}
+
+.benefit p {
+    color: #666666;
+}
+
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8%;
+    background-color: #17243a;
+    color: white;
+}
+
+.download h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.download p {
+    color: #dddddd;
+}
+
+.download-btn {
+    background-color: #ff8c32;
+    color: white;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #101b2c;
+    color: white;
+    padding: 50px 8% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-content h3 {
+    margin-bottom: 18px;
+}
+
+.footer-content p {
+    color: #bbbbbb;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer-content a {
+    display: block;
+    color: #bbbbbb;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.copyright {
+    border-top: 1px solid #394354;
+    text-align: center;
+    padding-top: 20px;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .features {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .booking-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .why-us {
+        flex-direction: column;
+    }
+
+    .download {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+}
